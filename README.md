@@ -7,7 +7,7 @@ A high-performance, full-stack search interface powered by the Google Search API
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.0-38B2AC?style=for-the-badge&logo=tailwind-css)
 ![Docker](https://img.shields.io/badge/Docker-Enabled-2496ED?style=for-the-badge&logo=docker)
 
-## 🚀 Key Features
+## Key Features
 
 - **Modern Search UI**: Built with Next.js 15 and Shadcn UI (Radix UI + Tailwind) for a sleek, responsive experience.
 - **Persistent History**: Automatically saves search queries and results to MongoDB for quick access.
@@ -16,7 +16,7 @@ A high-performance, full-stack search interface powered by the Google Search API
 - **DevOps Optimized**: Multi-stage Docker builds using Next.js "standalone" mode for ultra-lightweight production images.
 - **Security First**: Implements Helmet, Rate Limiting, and non-privileged Docker users.
 
-## 🛠 Tech Stack
+## Tech Stack
 
 ### Frontend
 - **Framework**: Next.js 15 (App Router)
