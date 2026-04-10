@@ -1,4 +1,4 @@
-# SearchWrapper Professional
+# SearchWrapper
 
 A high-performance, full-stack search interface powered by the Google Search API (via SerpApi). Built with a modern, production-grade architecture focusing on type safety, scalability, and developer experience.
 
@@ -37,7 +37,7 @@ A high-performance, full-stack search interface powered by the Google Search API
 
 ---
 
-## 🚦 Getting Started
+## Getting Started
 
 ### Prerequisites
 - [Docker](https://www.docker.com/) and Docker Compose
@@ -88,7 +88,7 @@ npm run dev
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 search-wrapper/
@@ -105,7 +105,7 @@ search-wrapper/
 └── docker-compose.yml     # Full stack orchestration
 ```
 
-## 🛡 Security & Best Practices
+## Security & Best Practices
 - **Non-privileged Users**: Docker containers run as `nextjs` or `node` users, not root.
 - **Layer Caching**: Dockerfiles are optimized to leverage layer caching for faster builds.
 - **Standalone Mode**: Next.js images only include files needed for production runtime.
